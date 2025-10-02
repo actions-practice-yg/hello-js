@@ -1,0 +1,27 @@
+name: 'Hello World Action'
+description: 'Greet a user and log a timestamped message'
+author: 'Your Name'
+branding:
+  icon: 'message-circle'
+  color: 'blue'
+
+inputs:
+  who-to-greet:
+    description: 'The name of the person to greet'
+    required: true
+    default: 'World'
+  log-file:
+    description: 'Filename for the log output'
+    required: false
+    default: 'greeting.log'
+
+outputs:
+  greeting-time:
+    description: 'The time the greeting was generated'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+
+# Optional: post cleanup (not needed here)
+# post: 'dist/post.js'
