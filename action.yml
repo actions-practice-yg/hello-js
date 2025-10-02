@@ -1,6 +1,6 @@
-name: 'Hello World Action'
+name: 'Hello Avengers'
 description: 'Greet a user and log a timestamped message'
-author: 'Your Name'
+author: 'yatish'
 branding:
   icon: 'message-circle'
   color: 'blue'
