@@ -21,7 +21,7 @@ outputs:
 
 runs:
   using: 'node20'
-  main: 'dist/index.js'
+  main: 'index.js'
 
 # Optional: post cleanup (not needed here)
 # post: 'dist/post.js'
