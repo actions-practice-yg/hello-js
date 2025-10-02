@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-action",
+  "name": "hello-avengers",
   "version": "1.0.0",
   "description": "A GitHub Action that greets a user",
   "main": "index.js",
